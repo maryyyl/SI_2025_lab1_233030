@@ -67,11 +67,13 @@ class TaskManager {
         // TODO: Implement removal logic
     }
 
-    // 2. Find all completed tasks
+//     2. Find all completed tasks
     public List<Task> getCompletedTasks() {
-        // TODO: Implement logic to return completed tasks
-        return new ArrayList<>();
+         return tasks.stream()
+                .filter(Task::isCompleted)
+                .collect(Collectors.toList());
     }
+    
 
     // 3. List tasks sorted by name
     public void sortTasksByName() {
