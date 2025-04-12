@@ -1,0 +1,46 @@
+13.git fetch origin
+-превземање на содржината од далечниот репозиториум
+14.git checkout 2-find-all-completed-tasks
+15.nano SI2025Lab1Main.java
+16.git commit -am "Find all completed tasks - feature implemented"
+17.git push origin 2-find-all-completed-tasks
+
+14.git checkout 5-filter-tasks-by-category
+15.nano SI2025Lab1Main.java
+16.git commit -am "Filter tasks by category - feature implemented"
+17.git push origin 5-filter-tasks-by-category
+
+14.git checkout 7-count-tasks-per-category
+15.nano SI2025Lab1Main.java
+16.git commit -am "Count tasks per category - feature implemented"
+17.git push origin 7-count-tasks-per-category
+
+22.git checkout master
+   git pull origin master
+   git merge 2-find-all-completed-tasks
+-спојување на гранката чиј pull request не беше одобрен
+23.git push origin master
+
+-При извршување на наредбата за спојување не настана конфликт.
+-Спојувањето беше по ORT стратегија.
+-порака во терминал:
+Auto-merging SI2025Lab1Main.java
+Merge made by the 'ort' strategy.
+ SI2025Lab1Main.java | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+25.touch logs.txt
+nano logs.txt
+(control + C) output of : git log --oneline --graph --all
+git add logs.txt 233030.txt
+26. git add 233030.txt logs.txt
+    git commit -m "Final commit"
+    git fetch origin
+    git push origin master 
+28. git clone https://github.com/maryyyl/SI_2025_lab1_151020.git
+29. cd SI_2025_lab1_151020/
+    nano 233030.txt
+    git add 233030.txt
+    git commit -m "Add file"
+30. git fetch origin
+    git push origin master

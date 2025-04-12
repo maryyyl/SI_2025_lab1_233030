@@ -1,0 +1,15 @@
+*   dad982c (HEAD -> master, origin/master, origin/HEAD) Merge branch '2-find-all-completed-tasks'
+|\
+| * feac049 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) Find all completed tasks - feature implemented
+* |   0356235 Merge pull request #11 from maryyyl/5-filter-tasks-by-category
+|\ \
+| * | 8e397a4 (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Filter tasks by category - feature implemented
+| |/
+* |   b918bbe Merge pull request #12 from maryyyl/7-count-tasks-per-category
+|\ \
+| |/
+|/|
+| * 13bc289 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Count tasks per category - feature implemented
+|/
+* d63f0da Add starter code
+* 3567702 Initial commit
